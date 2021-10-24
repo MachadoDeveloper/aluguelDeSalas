@@ -1,0 +1,285 @@
+/* Estrutura do site
+*/
+* {
+	margin:0;
+	padding: 0;
+}
+
+@font-face {
+	font-family:"Cinzel" ;
+	src: url(../fonts/Cinzel-Black.woff);
+}
+@font-face {
+	font-family:"Roboto";
+	src: url(../fonts/Roboto-Bold.woff);
+}
+body {
+	font-family:"Cinzel";
+	background: #fff url(../imagens/bg2.png);
+	margin: 15px;
+}
+
+#container {
+	background: #ffffff url(../imagens/bg-container33.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
+
+#topo {
+	position: relative;
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+}
+
+#area-logo {
+	position: absolute;
+	background: #FECEC1 url(../imagens/fundo.jpg) no-repeat;
+	width: 100%;
+	height: 250px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.logo a {
+	position: absolute;
+	top: 80px;
+	left: 350px;
+	z-index: 3;
+	background: url(../imagens/logoRR.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px;
+}
+
+#area-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../imagens/topo-imagem-lateral\(191923\).png) no-repeat; ;
+	width: 450px;
+	height: 250px;
+	z-index: 2;
+}
+
+#conteudo-menu {
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+#menu-locais a{
+	width: 60px;
+}
+#menu-locais span{
+	padding-left: 0px;
+}
+#menu-locais {
+	border-bottom: 1px solid #FECEC1;
+	border-top: 1px solid #FECEC1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7em;
+	color: #ffffff;
+}
+
+#menu-locais .locais {
+	float: left;
+	line-height: 2.2em;
+	padding-left: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+a.reserva {
+	text-transform: uppercase;
+	background: #FECEC1 url(../imagens/divisor.png) repeat-y;
+	color: #191923;
+	padding: 5px 10px;
+	float: right;
+	border: solid #FECEC1 2px;	
+}
+a.login {
+	text-transform: uppercase;
+	text-align: center;
+	background: #FECEC1;
+	color: #191923;
+	padding: 5px 10px;
+	float: right;
+	border: solid #FECEC1;
+	border-width: 2px;
+}
+
+a.login:hover , a.reserva:hover{
+
+	color: #fff;
+}
+
+/* Barra de navegação vertical
+*/
+#menu {
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul#navegacao {
+	float: left;
+}
+
+ul#navegacao a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #ffffff;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover {
+	background: #FECEC1;
+	color: #191923;
+}
+
+.depoimento {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+/* Área de conteúdos
+************************/
+#area-principal {
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal6.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#area-lateral {
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-principal6.png) top left repeat-x;
+	padding: 20px 0px;
+}
+
+.conteudo {
+	margin: 0 auto;
+	width: 90%;
+}
+.conteudo p {
+	font-family: "Roboto";
+}
+
+
+/* Formatações de textos
+*/
+h2 {
+	color: #191923;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+p {
+	margin-top: 1em;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+/* Formatações da area lateral
+*/
+
+#beneficios  {
+	margin-top: 2em;
+}
+#beneficios li {
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+	
+}
+
+#beneficios li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#beneficios li a p {
+	color: #191923;
+	font-size: 0.8em;
+}
+
+#beneficios li a h3 {
+	font-size: 1em;
+	color: #191923;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover {
+	background: #A8E0FF;
+	cursor: pointer;
+}
+
+/* Fortamação do rodape */
+
+#rodape {
+	clear: both;
+	padding-top: 8px;
+	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+	color: #191923;
+}
+
+.rodape {
+	position: relative;
+	background: #FECEC1 url(../imagens/rodapea.png) repeat-x top;
+	height: 40px;
+	width: 100%;
+	
+}
+#copy {
+	margin-top: 10px;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	color: #191923;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
